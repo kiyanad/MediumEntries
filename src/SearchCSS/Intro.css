@@ -59,6 +59,11 @@ left: 17vw;
 top: 6vw;
 
 }
+.notFound{
+  position: relative;
+  bottom: 2vw;
+
+}
 @media only screen and (max-width: 900px){
 
   .container{

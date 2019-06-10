@@ -82,7 +82,7 @@ class Search extends Component {
           </div>
           < br/>
           <div className="buttonContainer buttonContainer2">
-            <div className='button1' onClick={(e) =>{this.props.searchPublication(e, this.state.value)}}>
+            <div className='button1 buttn' onClick={(e) =>{this.props.searchPublication(e, this.state.value)}}>
               <AwesomeButton type="secondary submit">
                 Go
               </AwesomeButton>

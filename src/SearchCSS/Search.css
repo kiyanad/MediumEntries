@@ -49,6 +49,7 @@ button.aws-btn {
 --button-secondary-color-light: #349890;
 --button-secondary-color-hover: #ecf9f8;
 --button-secondary-border: .3vw solid #61e5f0;
+
 }
 
 .buttonContainer{
@@ -63,15 +64,17 @@ button.aws-btn {
   top: 1vw
 }
 
-.button1{
-  margin-right: 1vw;
+
+.buttn{
+  position: relative;
+  top: -3vw;
 }
 
 .at{
   height: 1.7vw;
   position: relative;
-  top: 0.2vw;
-  left: 1vw;
+  top: 4.2vw;
+  right: 15vw;
   z-index: 3;
 }
 
@@ -138,9 +141,13 @@ bottom: 3vw;
 .popular{
   margin-right: 1vw;
   font-size: 2vw;
+  font-size: 1.5vw;
+  position: relative;
+  bottom: 2vw;
 
 
 }
+
 
 @media only screen and (max-width: 800px){
 

@@ -75,6 +75,11 @@
   color: white
 }
 
+.postname{
+  bottom: 8vw;
+  left: 5vw;
+}
+
 @media only screen and (max-width: 900px){
 
   .postName{
@@ -85,8 +90,8 @@
   }
 
   .postname{
-    bottom: 6vw;
-    left: 1vw;
+    bottom: 8vw;
+    left: 5vw;
   }
   .numberOf{
     font-size: 1.5vw;
