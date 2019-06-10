@@ -1,0 +1,21 @@
+.checkbox{
+  height: 1.5vw;
+  background: white;
+  width: 1.5vw;
+  cursor: pointer;
+}
+
+.catContainer{
+  display: inline-flex;
+  margin-top: .5vw;
+  margin-right: 3vw;
+}
+
+.checkName{
+  position: relative;
+  bottom: 1.7vw;
+  margin-left: 1vw;
+  color: white;
+  font-family: myFont;
+  font-size: 1.5vw;
+}

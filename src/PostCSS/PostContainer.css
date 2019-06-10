@@ -1,0 +1,103 @@
+.myPostContainer{
+    min-height: 75%;
+    width: 95%;
+    position: relative;
+    bottom: 13vw;
+    left: 3vw;
+    border-top-style: solid;
+    border-color: white;
+    border-width: .1vw;
+    height: 95%;
+
+
+}
+
+.filterContainer{
+min-height: 5vw;
+display: flex;
+border-bottom-style: solid;
+border-bottom-width: .1vw;
+border-bottom-color: white
+
+}
+
+.hiddenContainer{
+  height: 5vw;
+  width: 0%;
+  position: relative;
+  z-index: 0;
+  transition: all 1s ease-in-out;
+  overflow: scroll;
+
+
+}
+
+.hiddenContainer.hovered{
+  height:auto;
+  transition: all 5s ease-in-out;
+
+}
+
+.show{
+  transition: all 1s ease-in-out;
+
+  width: 82.1%;
+
+}
+
+.categoriesContainer{
+  height: 5vw;
+background: orange;
+width: 13vw;
+z-index: 1;
+
+}
+
+.filterBy{
+  float: left;
+    font-family: myFont;
+    font-size: 1.5vw;
+    position: relative;
+    bottom: 2vw;
+    margin-left: 1vw;
+}
+
+.cat{
+  float: right;
+font-family: myFont;
+position: relative;
+font-size: 2.4vw;
+top: -8vw;
+right: 1vw
+}
+
+.expand{
+  height: 3vw;
+position: relative;
+top: 1vw;
+transform: rotate(180deg);
+cursor: pointer;
+}
+
+.reverse{
+  transform: rotate(0deg)
+
+}
+
+.outside{
+  display: contents;
+
+}
+
+.clear{
+  font-size: 1.5vw;
+  color: white;
+  position: relative;
+  left: 35vw;
+  top: 8vw;
+  cursor: pointer;
+}
+
+.clear:hover{
+  color: blue;
+}

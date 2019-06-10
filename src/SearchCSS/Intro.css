@@ -1,0 +1,54 @@
+@font-face {
+  font-family: myFont;
+  src: url('../Fonts/NOVABOLD.otf');
+}
+
+.container{
+  position: relative;
+  bottom: 2.5vw
+}
+
+.intro{
+  font-size: 5vw;
+  color: papayawhip;
+  font-family: myFont
+}
+
+.intro-desc {
+  font-size: 1.7vw;
+  position: relative;
+  bottom: 2.5vw;
+  color: steelblue;
+
+}
+
+/* EMBOSSED TEXT FOR HEADER  */
+
+.embossed{
+  background-color: #666666;
+  text-shadow: 1px 4px 4px #555;
+  text-align: center;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+}
+
+.choices{
+  display: inline-flex;
+
+}
+
+.byUser, .byPublication{
+height: 5vw;
+width: 23vw;
+position: relative;
+
+
+}
+
+.byUser{
+right: 17vw;
+}
+
+.byPublication{
+left: 17vw;
+}

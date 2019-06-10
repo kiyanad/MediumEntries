@@ -1,0 +1,74 @@
+/* Cloud */
+.cloudContainer{
+  position: relative;
+  left: 14vw;
+}
+
+.cloud {
+  text-align: center;
+  box-sizing: border-box;
+  width: 30vw;
+  height: 21vw;
+  padding: 6vw 1em 0 1em;
+  margin: 1vw 5vw;
+  position: relative;
+  background-color: skyblue;
+  border-radius: 128% 111% 111% 121%;
+  z-index: 2;
+  bottom: 2vw;
+  left: 16vw;
+
+}
+
+
+.cloud::before,
+.cloud::after {
+  content: '';
+  position: absolute;
+  bottom  : 0;
+  z-index : -1;
+  background-color: skyblue;
+  border-radius: 100%;
+
+}
+
+.cloud::before {
+  width: 18vw;
+  height: 15vw;
+  left: -9vw;
+}
+
+.cloud::after {
+  width: 19vw;
+  height: 15vw;
+  right: -9vw;
+
+}
+/* End */
+
+/* BUBBLES */
+.bubbleContainer{
+  position: relative;
+  right: 2vw;
+  bottom: 1.5vw
+}
+.small1{
+  background-color: skyblue;
+  height: 2.5vw;
+  position: relative;
+  border-radius: 50%;
+  width: 2.5vw;
+  left: 7vw;
+  top: 3vw;
+}
+
+.small2{
+  background-color: skyblue;
+  height: 3.5vw;
+  position: relative;
+  border-radius: 50%;
+  width: 3.5vw;
+  left: 11.5vw;
+  bottom: 4vw;
+
+}

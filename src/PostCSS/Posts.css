@@ -1,0 +1,27 @@
+.entryContainer{
+  background: white;
+  height: 39vw;
+  width: 60vw;
+  margin-bottom: 4vw;
+  margin-top: 3vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+
+
+
+}
+
+.entries{
+  height: 82%;
+  overflow: scroll;
+  position: relative;
+
+}
+
+.thumbnail{
+  max-height: 22vw;
+  max-width: 53vw;
+
+
+}

@@ -1,0 +1,76 @@
+.userN{
+  color: white;
+  font-family: myFont;
+  font-size: 4vw;
+  position: relative;
+  top: 1.6vw;
+  right: 1vw
+}
+
+.postname{
+  color: white;
+  font-family: myFont;
+  font-size: 4.5vw;
+  float:left;
+  position: relative;
+  bottom: 8vw;
+  margin-left: 20vw;
+  left: -1vw;
+
+
+}
+
+.userNContaner{
+  display: table-caption;
+  position: relative;
+  bottom: 4vw
+
+}
+
+
+.swipe {
+  display: inline-flex;
+  background: linear-gradient(to right, #FFF 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: swipe 1.5s linear infinite;
+}
+
+  @keyframes swipe {
+  100% {
+      background-position: -200% center;
+    }
+  }
+
+.a{
+  float: left;
+  font-size: 4vw;
+  color: yellow;
+  position: relative;
+  left: 3.6vw;
+  top: .5vw;
+  margin-right: 5vw;
+
+}
+
+.header{
+  display: flex;
+}
+
+.goBack{
+      height: 5vw;
+      width: 14vw;
+      position: relative;
+      left: 45vw;
+      top: 3vw;
+}
+
+.numberOf{
+  float: left;
+  font-size: 2vw;
+  color: white
+}

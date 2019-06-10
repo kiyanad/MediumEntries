@@ -1,0 +1,17 @@
+.choiceContainer{
+  height: 4vw;
+  border-bottom-style: inset;
+  border-width: .1vw;
+  margin-bottom: -2vw;
+
+}
+
+.choiceContainer:hover{
+  background: white
+}
+
+.pub{
+  position: relative;
+  top: 1vw;
+  cursor: pointer;
+}

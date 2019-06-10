@@ -1,0 +1,141 @@
+.searchContainer{
+  height: 10vw;
+  width: 28vw;
+}
+
+.username{
+  font-size: 2.5vw;
+  font-family: myFont;
+  margin-right: 1vw;
+
+}
+
+.box{
+  font-size: 2.3vw;
+  height: 5vw;
+  font-family: myFont;
+  background: transparent;
+  border-style: none;
+  border-width: .1vw;
+  border-radius: 50%;
+  padding-left: 3vw;
+  padding-right: 2vw;
+  width: 14vw;
+  position: relative;
+  left: -2vw;
+  box-shadow: 12px 6px 7px 2px rgba(0, 0, 255, .1);
+  outline: none;
+
+}
+
+.active{
+  background: white
+}
+
+.finished{
+  background: green
+}
+
+button.aws-btn {
+  --button-default-height: 4vw;
+  --button-default-font-size: 1.5vw;
+  --button-default-border-radius: 2vw;
+  --button-horizontal-padding: 1.5vw;
+  --button-raise-level: 0.4vw;
+--button-hover-pressure: 5;
+--transform-speed: 0.25s;
+--button-secondary-color: #fafafa;
+--button-secondary-color-dark: #86868b;
+--button-secondary-color-light: #349890;
+--button-secondary-color-hover: #ecf9f8;
+--button-secondary-border: .3vw solid #61e5f0;
+}
+
+.buttonContainer{
+  position: relative;
+  left: 12vw;
+  top: 0vw;
+  display: flex;
+
+}
+
+.go{
+  top: 1vw
+}
+
+.button1{
+  margin-right: 1vw;
+}
+
+.at{
+  height: 1.7vw;
+  position: relative;
+  top: 0.2vw;
+  left: 1vw;
+  z-index: 3;
+}
+
+.dropDown{
+  background: yellow;
+height: 3vw;
+width: 20vw;
+
+}
+
+.dropInner{
+  height: 0vw;
+    background: cornflowerblue;
+    position: relative;
+    top: 1.5vw;
+    z-index: 4;
+    overflow: hidden
+
+}
+
+.drop{
+  height: 22vw;
+  top: 2vw;
+  width: 20vw;
+  overflow: scroll;
+
+
+}
+
+
+.downCarrot{
+  height: 1.1vw;
+float: right;
+position: relative;
+top: 1vw;
+margin-right: 1vw;
+cursor: pointer;
+
+}
+
+.form2{
+  position: relative;
+left: -1vw;
+bottom: 3vw;
+}
+
+.box2{
+  width: 26vw;
+  left: 0vw
+
+}
+
+.username2{
+  left: 2vw;
+  position: relative;
+}
+
+.dropped{
+  display: flex;
+  position: relative;
+  top: 1vw;
+}
+
+.popular{
+  margin-right: 1vw;
+
+}
