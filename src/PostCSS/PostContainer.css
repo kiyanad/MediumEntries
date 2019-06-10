@@ -101,3 +101,10 @@ cursor: pointer;
 .clear:hover{
   color: blue;
 }
+
+@media only screen and (max-width: 800px){
+
+  .myPostContainer{
+    left: 8vw;
+  }
+}

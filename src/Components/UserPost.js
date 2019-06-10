@@ -103,7 +103,7 @@ class UserPost extends Component {
             <div className="hiddenContainer">
               {catArray}
             </div>
-            <img className="expand" src='https://s3.amazonaws.com/arc-wordpress-client-uploads/wweek/wp-content/uploads/2019/02/19155110/arrow-prev-24.png' onMouseEnter={this.show}/>
+            <img className="expand" src='https://s3.amazonaws.com/arc-wordpress-client-uploads/wweek/wp-content/uploads/2019/02/19155110/arrow-prev-24.png' onClick={this.show} onMouseEnter={this.show}/>
           </div>
           <div className="entries">
             <h4 className="numberOf">

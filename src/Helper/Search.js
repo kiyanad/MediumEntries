@@ -27,10 +27,10 @@ class Search extends Component {
 
   render() {
     return (
-      <div className="search">
+      <div className="search1">
         <form className='form'>
           <label className="username">
-            Name:
+            Username:
           </label>
           <img className='at' src='https://sitejerk.com/images/sign-transparent.png'/>
           <input className="box" type="text" name="name" onMouseEnter={this.highlight} onMouseLeave={this.highlight} onChange= {(e)=>{this.change(e)}}/>

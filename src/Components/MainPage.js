@@ -164,9 +164,20 @@ class MainPage extends Component {
   publication = () => {
     this.setState({
       userPage: false,
-      publication:true
+      publication:true,
+      found: true,
+      nopost: false,
     })
   }
+  // CHANGES SEARCH TO User
+    backToUser = () => {
+      this.setState({
+        userPage: true,
+        publication:false,
+        found: true,
+        nopost: false,
+      })
+    }
 // SELECT FROM POPULAR PUBLICATIONS
   selectPub = (e) => {
     document.querySelector(".box").value = e.target.parentElement.id
@@ -189,7 +200,7 @@ class MainPage extends Component {
             (An application that allows you to see any Users or Publications Medium entries!)
           </h4>
           <div className='choices'>
-            <div className='byUser'>
+            <div className='byUser' onClick={this.backToUser}>
               <AwesomeButton type="secondary submit">
                 By UserName
               </AwesomeButton>
@@ -203,13 +214,13 @@ class MainPage extends Component {
           <div className="cloudContainer">
             <div className="cloud">
               {this.state.nopost?
-                <div>
+                <div className="notFound">
                   Sorry no post found for the User
                 </div>:
                 <div>
                 {this.state.found?
                   null:
-                  <div>
+                  <div className="notFound">
                     Sorry User not found...
                   </div>}
                 </div>}

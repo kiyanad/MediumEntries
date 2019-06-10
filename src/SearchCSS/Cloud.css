@@ -2,6 +2,8 @@
 .cloudContainer{
   position: relative;
   left: 14vw;
+  bottom: 4vw;
+
 }
 
 .cloud {
@@ -70,5 +72,13 @@
   width: 3.5vw;
   left: 11.5vw;
   bottom: 4vw;
+
+}
+
+@media only screen and (max-width: 800px){
+
+  .cloudContainer{
+    width: 50%;
+  }
 
 }

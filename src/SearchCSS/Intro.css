@@ -5,7 +5,8 @@
 
 .container{
   position: relative;
-  bottom: 2.5vw
+  bottom: 2.5vw;
+
 }
 
 .intro{
@@ -51,4 +52,29 @@ right: 17vw;
 
 .byPublication{
 left: 17vw;
+}
+
+.search1{
+  position: absolute;
+top: 6vw;
+
+}
+@media only screen and (max-width: 800px){
+
+  .container{
+    right: -3vw;
+
+  }
+
+  .main{
+    width: 87%;
+
+  }
+
+  .notFound{
+    position: relative;
+    bottom: 2vw;
+    font-size: 1.5vw;
+
+  }
 }

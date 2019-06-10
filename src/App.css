@@ -10,3 +10,39 @@ html{
   background-image: url('https://www.xmple.com/wallpaper/gradient-purple-black-linear-1920x1080-c2-000000-9400d3-a-120-f-14.svg');
   background-size: cover;
 }
+
+@media only screen and (orientation:portrait){
+
+  html {
+
+    height: 100vw;
+
+    -webkit-transform: rotate(90deg);
+
+    -moz-transform: rotate(90deg);
+
+    -o-transform: rotate(90deg);
+
+    -ms-transform: rotate(90deg);
+
+    transform: rotate(90deg);
+
+  }
+
+
+.cloudContainer{
+  width: 50%;
+
+}
+
+.popular{
+  position: relative;
+top: -3vw;
+}
+
+.pub{
+  font-size: 2vw;
+
+}
+
+}

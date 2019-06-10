@@ -1,6 +1,6 @@
 .entryContainer{
   background: white;
-  height: 39vw;
+  height: auto;
   width: 60vw;
   margin-bottom: 4vw;
   margin-top: 3vw;
@@ -24,4 +24,23 @@
   max-width: 53vw;
 
 
+}
+
+.link{
+  position: relative;
+  bottom: 1vw;
+
+}
+
+@media only screen and (max-width: 800px){
+
+  .thumbnail {
+      max-height: 14vw;
+      max-width: 26vw;
+  }
+
+  .link{
+    font-size: 1.5vw;
+
+  }
 }

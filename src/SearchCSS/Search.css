@@ -139,3 +139,30 @@ bottom: 3vw;
   margin-right: 1vw;
 
 }
+
+@media only screen and (max-width: 800px){
+
+.popular{
+position: relative;
+top: -3vw;
+}
+
+.buttonContainer2{
+  top: -6vw;
+
+}
+
+.at{
+  height: 1.7vw;
+  position: relative;
+  top: 4.2vw;
+  right: 14vw;
+}
+
+button.aws-btn {
+  --button-default-height: 3vw;
+  position: relative;
+  bottom: .5vw;
+}
+
+}

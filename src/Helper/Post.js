@@ -19,7 +19,7 @@ function Post(props) {
       <h5 className="date">
         Categories: {categories}
       </h5>
-      < a href={props.post.link}>
+      < a className="link" href={props.post.link}>
         Check it out on Medium!
       </a>
     </div>
