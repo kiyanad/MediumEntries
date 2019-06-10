@@ -59,7 +59,7 @@ left: 17vw;
 top: 6vw;
 
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 900px){
 
   .container{
     right: -3vw;

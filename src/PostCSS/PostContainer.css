@@ -102,7 +102,7 @@ cursor: pointer;
   color: blue;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 900px){
 
   .myPostContainer{
     left: 8vw;

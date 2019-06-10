@@ -180,11 +180,20 @@ class MainPage extends Component {
     }
 // SELECT FROM POPULAR PUBLICATIONS
   selectPub = (e) => {
+    if(e.target.classList.contains("choiceContainer")){
+      document.querySelector(".box").value = e.target.id
+      this.setState({
+        choosenPub: e.target.id,
+        pub: e.target.firstElementChild.innerText
+      })
+    }
+    else{
     document.querySelector(".box").value = e.target.parentElement.id
-    this.setState({
-      choosenPub: e.target.parentElement.id,
-      pub: e.target.innerText
-    })
+      this.setState({
+        choosenPub: e.target.parentElement.id,
+        pub: e.target.innerText
+      })
+    }
   }
 
   render(){

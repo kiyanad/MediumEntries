@@ -7,7 +7,9 @@
 }
 
 .choiceContainer:hover{
-  background: white
+  background: white;
+  cursor: pointer;
+  
 }
 
 .pub{
@@ -16,11 +18,11 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 900px){
 
   .pub{
     font-size: 1.5vw;
-
   }
+
 
 }

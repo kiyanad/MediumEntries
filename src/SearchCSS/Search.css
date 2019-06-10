@@ -76,7 +76,7 @@ button.aws-btn {
 }
 
 .dropDown{
-  background: yellow;
+  background: white;
 height: 3vw;
 width: 20vw;
 
@@ -137,6 +137,8 @@ bottom: 3vw;
 
 .popular{
   margin-right: 1vw;
+  font-size: 2vw;
+
 
 }
 
