@@ -6,3 +6,5 @@ There is also a drop down that provides you with popular publications if you don
 The User search is by username which is generally found on a users profile or the @name in the link.
 
 Created By: Kiyana Dunlock
+
+View the application live: https://medium-entries.herokuapp.com/
