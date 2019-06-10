@@ -67,7 +67,7 @@ button.aws-btn {
 
 .buttn{
   position: relative;
-  top: -3vw;
+  top: 3vw;
 }
 
 .at{
@@ -165,13 +165,17 @@ top: -3vw;
   height: 1.7vw;
   position: relative;
   top: 4.2vw;
-  right: 14vw;
+  right: 15vw;
 }
 
 button.aws-btn {
   --button-default-height: 3vw;
   position: relative;
   bottom: .5vw;
+}
+
+.box, .box2{
+  background: white
 }
 
 }

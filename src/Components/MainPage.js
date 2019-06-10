@@ -32,6 +32,7 @@ class MainPage extends Component {
 
 // FETCH TO GET ENTRIES BASED ON USERNAME
   search = (e, value) => {
+
     e.preventDefault()
       // FETCH FOR MEDIUM BLOG POST
       fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${value}`)
@@ -54,10 +55,11 @@ class MainPage extends Component {
                 const combinedCategories = categories.reduce((a, b) => a.concat(b))  // ['1', '3', '4', '2']
                 const uniqueCategories = Array.from(new Set(combinedCategories));
                 debugger
+              const user=   document.querySelector(".box").value
 
                 this.setState({
                   allposts: posts,
-                  user: value,
+                  user: user,
                   categories: uniqueCategories,
                   found: true,
                   nopost: false,
